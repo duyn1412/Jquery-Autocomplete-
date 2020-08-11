@@ -27,11 +27,7 @@ $(function () {
         source: availableTags,
         multiple: true,
         mustMatch: false
-        /*,source: function (request, response) {
-            // delegate back to autocomplete, but extract the last term
-            //response($.ui.autocomplete.filter(
-            //availableTags, request.term.split(" ")));
-        },*/
+ 
     });
 
 
